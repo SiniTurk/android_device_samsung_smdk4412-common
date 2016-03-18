@@ -18,5 +18,5 @@
 -->
 <resources>
     <!-- Allow Flashlight service to use wakelock -->
-    <bool name="flashlight_use_wakelock">true</bool>
+    <bool name="flashlight_use_wakelock">false</bool>
 </resources>

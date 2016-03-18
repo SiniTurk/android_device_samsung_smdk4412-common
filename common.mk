@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/samsung/smdk4412-common
+COMMON_PATH := device/generalmobile/smdk4412-common
 
 DEVICE_PACKAGE_OVERLAYS := $(COMMON_PATH)/overlay
 
@@ -183,4 +183,4 @@ TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
 $(call inherit-product, hardware/samsung/exynos4x12.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/samsung/smdk4412-common/common-vendor.mk)
+$(call inherit-product, vendor/generalmobile/smdk4412-common/common-vendor.mk)
